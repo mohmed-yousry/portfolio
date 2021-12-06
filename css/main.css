@@ -1,7 +1,8 @@
-* {
-  /* border: 3px solid black; */
-  /* overflow: hidden; */
+*::selection {
+  background-color: var(--main-color);
+  color: white;
 }
+
 
 section:not(#contect),
 nav,
